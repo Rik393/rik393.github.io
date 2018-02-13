@@ -1,0 +1,23 @@
+
+.header-img {
+  background-image: url("../img/wood-bg.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 4px;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #f2f2f2;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.uk-navbar-nav>li>a {
+  color: #1C1C1F;
+}
