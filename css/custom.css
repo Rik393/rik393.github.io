@@ -31,7 +31,7 @@ html {
 }
 
 /** From Semantic UI - Lifted theme **/
-.uk-button {
+.uk-button, .uk-navbar-container {
   cursor: pointer;
   display: inline-block;
   min-height: 1em;
