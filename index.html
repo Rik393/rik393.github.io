@@ -30,12 +30,15 @@
   						</div>
   						<div class="uk-navbar-right">
   							<div class="uk-margin-right">
-  								<a class="uk-navbar-toggle" uk-search-icon href="#"></a>
-  								<div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
-  									<form class="uk-search uk-search-navbar uk-width-1-1">
-  										<input class="uk-search-input" type="search" placeholder="Search" autofocus>
-  									</form>
-  								</div>
+  								<a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
+                  <div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+                    <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <form class="uk-search uk-search-large">
+                            <input class="uk-search-input uk-text-center" type="search" placeholder="Search..." autofocus>
+                        </form>
+                    </div>
+                  </div>
   							</div>
                 <a href="#" class="uk-icon-link uk-margin-small-right" data-uk-icon="icon: facebook"></a>
                 <a href="#" class="uk-icon-link uk-margin-small-right" data-uk-icon="icon: twitter"></a>
@@ -207,7 +210,7 @@
   		<!-- /CONTENT -->
 
       <!--FOOTER-->
-      <section class="uk-section uk-section-xsmall uk-section-default uk-position-bottom uk-position-fixed footer-dark">
+      <section class="uk-section uk-section-xsmall uk-section-default footer-dark">
         <div class="uk-container uk-text-small">
           <div class="uk-grid-divider uk-text-center uk-light" uk-grid>
             <div class="uk-width-1-3">
